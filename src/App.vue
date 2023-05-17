@@ -6,7 +6,9 @@
         <v-spacer />
         <v-btn text @click="$router.push('/')"> Home </v-btn>
         <v-btn text @click="$router.push('/board')"> 여행 꿀팁 공유 </v-btn>
-        <v-btn text @click="$router.push('/attraction')"> 지역별 관광지 정보 </v-btn>
+        <v-btn text @click="$router.push('/attraction')">
+          지역별 관광지 정보
+        </v-btn>
 
         <v-spacer></v-spacer>
       </v-container>
